@@ -1,5 +1,5 @@
 module "s3_bucket" {
-  source  = "app.terraform.io/iamekna/s3-bucket/aws"
+  source = "terraform-aws-modules/s3-bucket/aws"
   version = "2.8.0"
   bucket_prefix = var.prefix
   bucket = "my-s3-bucket"
